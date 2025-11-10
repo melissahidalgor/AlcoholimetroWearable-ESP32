@@ -32,3 +32,6 @@ El dispositivo utiliza un ESP32 para controlar los componentes físicos y alojar
 
 * **Comunicación Cliente-Servidor Asíncrona:** El botón `Iniciar Medición` envía una petición GET a `/iniciar_medicion` para indicarle al ESP32 que comience a leer los sensores. El cliente utiliza la función `startPollingForData()` para consultar repetidamente el estado y los datos finales mediante   `fetch('/obtener_datos')`.
 
+## 🖼️ Montaje
+
+![texto alternativo](Documentacion/AlcoholimetroWearable.png)
