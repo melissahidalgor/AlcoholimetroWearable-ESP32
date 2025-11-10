@@ -22,7 +22,7 @@ El dispositivo utiliza un ESP32 para controlar los componentes físicos y alojar
 4.  Colocar el dedo en el sensor MAX30102 y soplar brevemente sobre el sensor MQ-3 por 5 segundos.
 5.  Una vez completada la medición, presionar `Volver` para guardar los datos en el historial local del navegador.
    
-## Características de la Programación
+## ⚙️ Características de la Programación
 
 * **Algoritmo de Alcohol (MQ-3):** Implementación de la calibración de la resistencia del sensor en aire limpio (*R0*) y el cálculo de la concentración de alcohol (*mg/L*) utilizando la relación (*Rs/R0*) simplificando mediante Mapeo Lineal.
 
